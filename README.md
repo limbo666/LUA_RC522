@@ -5,18 +5,15 @@ Based on original work by Ben Jackson updated by Nikos Georgousis
 
 *This is a port of:*
 
-- *https://github.com/ondryaso/pi-rc522		>>>	Python*
+- *https://github.com/ondryaso/pi-rc522		>>>	**Python***
 
-- *https://github.com/ljos/MFRC522			>>>	Arduino*
+- *https://github.com/ljos/MFRC522			>>>	**Arduino***
 
 This lua script works with **nodeMCU dev kit** modules, **Wemos D1 mini** or any other ESP-8266 based compatible  board and it is intent to be used with MFRC522 RFID reader. s50 tags can be used (but can work with other Mifare based tags).
 
 You can use https://nodemcu-build.com/ web service to build your Nodemcu firmware. The required modules are:  **bit,file,gpio,net,node,spi,tmr,uart,wifi**
-Connections between RFID-RC522 module and WEMOS D1-MINI (Wemos can be replaced with NODEMCU or any other compatible ESP-8266 module)
 
-
-
-**Connections**
+Connections between RFID-RC522 module and WEMOS D1-MINI (Wemos can be replaced with NODEMCU or any other compatible ESP-8266 module).
 
 > | RFID-RC522 | WEMOS D1-MINI   |
 > | ---------- | --------------- |
@@ -31,10 +28,5 @@ Connections between RFID-RC522 module and WEMOS D1-MINI (Wemos can be replaced w
 >
 > *Wemos pins are NodeMCU I/O numbers*
 >
-> 
 >
-> 
->
-> 
-
 
