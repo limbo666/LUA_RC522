@@ -1,8 +1,6 @@
 # LUA_RC522
 MFRC522 RFID reader/writer for the NodeMCU
-
-RC522 RFID Reader for NodeMCU LUA
-By Ben Jackson
+Based on original work by Ben Jackson
 
 This is a port of:
 https://github.com/ondryaso/pi-rc522        -> Python
