@@ -1,4 +1,4 @@
-# LUA_RC522
+# LUA RC522
 
 MFRC522 RFID reader/writer for the NodeMCU
 Based on original work by Ben Jackson updated by Nikos Georgousis
@@ -15,6 +15,8 @@ You can use https://nodemcu-build.com/ web service to build your Nodemcu firmwar
 
 Connections between RFID-RC522 module and WEMOS D1-MINI (Wemos can be replaced with NODEMCU or any other compatible ESP-8266 module).
 
+![Connection](/Images/Connection_Diagram_f.jpg)
+
 > | RFID-RC522 | WEMOS D1-MINI   |
 > | ---------- | --------------- |
 > | SDA        | D4              |
@@ -28,5 +30,7 @@ Connections between RFID-RC522 module and WEMOS D1-MINI (Wemos can be replaced w
 >
 > *Wemos pins are NodeMCU I/O numbers*
 >
->
+
+![RC522Pinout](/Images/RC522_Pinout_f.png)
+
 
